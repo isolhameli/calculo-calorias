@@ -6,7 +6,7 @@ public class PratoRequest {
 
     private String nome;
 
-    private List<IngredienteRequest> ingredientes;
+    private List<String> ingredientes;
 
     public PratoRequest() {
     }
@@ -19,11 +19,11 @@ public class PratoRequest {
         this.nome = nome;
     }
 
-    public List<IngredienteRequest> getIngredientes() {
+    public List<String> getIngredientes() {
         return ingredientes;
     }
 
-    public void setIngredientes(List<IngredienteRequest> ingredienteRequests) {
+    public void setIngredientes(List<String> ingredienteRequests) {
         this.ingredientes = ingredienteRequests;
     }
 }
